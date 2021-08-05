@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.values__selected {
+  text-align: center;
+  background-color: #fcf5d9;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.values__checkbox {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  border: 1px solid #76a131;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #76a131;
+}
+input[type="checkbox"]:checked:after {
+  content: "\2714";
+  line-height: 24px;
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  left: 4px;
+}
+
+.values__button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #76a131;
+  color: #76a131;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: 600;
+}
